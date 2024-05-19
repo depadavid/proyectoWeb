@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="../css/carritos.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <script src="../js/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="titulo">
+        <div>
+          <i class="bx bxl-redux bx-spin" style="color: #ada49e"></i>
+        </div>
+        <h1>Ecommerce CampusLand</h1>
+        <div class="icono">
+          <button onclick="botonMenu()" id="abrir" class="abrir">
+            <i class="bx bx-menu"></i>
+          </button>
+        </div>
+      </div>
+      <nav class="categorias" id="menu">
+        <ul>
+          <li>
+            <i class="bx bx-closet"></i>
+            <a href="../index.html">Todos los productos</a>
+          </li>
+          <li>
+            <img src="../storage/img/Icon_abrigo.png" alt="" />
+            <a href="abrigos.html">Abrigos</a>
+          </li>
+          <li>
+            <img src="../storage/img/icon_camiseta.png" alt="" />
+            <a href="camisetas.html">Camisetas</a>
+          </li>
+          <li>
+            <img src="../storage/img/Icon_pantalon.png" alt="" />
+            <a href="pantalones.html">Pantalones</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="carritos home" id="menu">
+        <i class="bx bxs-cart"></i>
+        <a href="carritos.html">Carritos</a>
+        <button>3</button>
+      </nav>
+      <nav class="copy" id="menu">
+        <i class="bx bx-copyright"></i>
+        <a href="#">@Web Ecommerce 2024</a>
+      </nav>
+    </header>
+    <main>
+      <div class="h1">
+        <h1>Carrito</h1>
+      </div>
+      <div class="main">
+        <div class="carrito01 item01 c btn01">
+          <div class="img">
+            <img src="../storage/img/pantalon_negro.webp" alt="pantalon01" />
+          </div>
+          <div class="descripcion">
+            <h2>Pantalon</h2>
+            <p>Pantalon En Dril Licrado Para Hombre</p>
+          </div>
+          <div class="cantidad">
+            <h3>Cantidad</h3>
+            <div class="num">2</div>
+          </div>
+          <div class="precio">
+            <h3>Precio c/u</h3>
+            <p>$ 58900</p>
+          </div>
+          <div class="subtotal">
+            <h3>subtotal</h3>
+            <p>$ 117800</p>
+          </div>
+          <div class="btn">
+            <a href="abrir.html">
+              <i class="bx bx-trash" style="color: #dfdad6"></i>
+            </a>
+          </div>
+        </div>
+        <div class="item02 c">
+          <div class="img">
+            <img src="../storage/img/chaqueta_blanca.webp" alt="abrigo03" />
+          </div>
+          <div class="descripcion">
+            <h2>Abrigo</h2>
+            <p>Chaqueta Impermeable En Gabán Para Dama 'Blanco'</p>
+          </div>
+          <div class="cantidad">
+            <h3>Cantidad</h3>
+            <div class="num">2</div>
+          </div>
+          <div class="precio">
+            <h3>Precio c/u</h3>
+            <p>$ 93900</p>
+          </div>
+          <div class="subtotal">
+            <h3>subtotal</h3>
+            <p>$ 187800</p>
+          </div>
+
+          <div class="btn">
+            <a href="abrir.html">
+              <i class="bx bx-trash" style="color: #dfdad6"></i>
+            </a>
+          </div>
+        </div>
+        <div class="item03 c">
+          <div class="img">
+            <img
+              src="../storage/img/camiseta_banda_rock_negra.webp"
+              alt="camisa04"
+            />
+          </div>
+          <div class="descripcion">
+            <h2>Camiseta</h2>
+            <p>Camisetas Bandas De Rock Metal Heavy Riffs.</p>
+          </div>
+          <div class="cantidad">
+            <h3>Cantidad</h3>
+            <div class="num">1</div>
+          </div>
+          <div class="precio">
+            <h3>Precio c/u</h3>
+            <p>$ 32850</p>
+          </div>
+          <div class="subtotal">
+            <h3>subtotal</h3>
+            <p>$ 67500</p>
+          </div>
+          <div class="btn">
+            <a href="abrir.html">
+              <i class="bx bx-trash" style="color: #dfdad6"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="ilera_final">
+        <div class="btn01">
+          <a href="vaciarcarrito.html">Vaciar Carrito</a>
+        </div>
+        <div class="containerbtn">
+          <div class="texto">
+            <p>Total</p>
+            <p>$ 373100</p>
+          </div>
+          <div class="btn02">
+            <a href="#">Comprar Ahora</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

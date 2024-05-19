@@ -1,0 +1,15 @@
+@import url(variables.css);
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+
+*{
+    font-family: "Basic", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: var(--color-primary);
+    display: flex;
+}
