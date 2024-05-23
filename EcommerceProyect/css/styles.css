@@ -154,7 +154,7 @@ main {
 .producto-imagen {
     max-width: 100%;
     height: auto; /* Mantiene la proporción de la imagen */
-    aspect-ratio: 14 / 25; /* Ajusta la relación de aspecto a 16:9 */
+    aspect-ratio: 7 / 12; /* Ajusta la relación de aspecto a 16:9 */
     border-radius: 3rem;
 
 
@@ -171,12 +171,15 @@ main {
   flex-direction: column;
   gap: .25rem;
   flex: 1 1 200px; /* Permite que los elementos se ajusten con un tamaño mínimo de 200px */
-  box-sizing: border-box; /* Incluye el padding y el borde en el tamaño total del elemento */
+  box-sizing: border-box;/* Incluye el padding y el borde en el tamaño total del elemento */
+   text-align: center;
+
 }
 
 .producto-titulo {
     font-size: 0.8rem;
-    text-align: center;    
+    text-align: center;
+    margin: 10px 0;    
 }
 
 .producto-agregar {
